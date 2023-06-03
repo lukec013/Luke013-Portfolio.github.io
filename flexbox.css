@@ -1,19 +1,9 @@
 .container {
+      background-color: blueviolet;
       display: flex;
       flex-direction: column;
       flex-wrap:nowrap;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: stretch;
+      text-align: center;
 }
-
-table, th, td {
-      border: 1px solid green;
-      border-collapse: collapse;
-}
-
-head,
-foot {
-      background-color: orange;
-      color: olive;
-}
-
